@@ -4,10 +4,7 @@ Multichar_Symbols
 
 LEXICON Root !something
 
-урам%<n%>:урам # ;   ! "улица"
-пахча%<n%>:пахта # ;   ! "улица"
-хула%<n%>:хула # ;   ! "улица"
-канаш%<n%>:канаш # ;   ! "улица"
+Nouns;
 
 Multichar_Symbols
 
