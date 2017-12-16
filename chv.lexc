@@ -2,6 +2,6 @@ Multichar_Symbols
 
 %<n%>                ! Имя существительное
 
-LEXICON Root
+LEXICON Root !something
 
 урам%<n%>:урам # ;   ! "улица"
