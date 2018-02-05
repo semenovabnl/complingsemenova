@@ -6,7 +6,7 @@ str=$1
 of=/tmp/chv.out
 lines=`cat chv.lexc chv.twol | grep -v '^$' | grep -v '^!' | tr -d '[\n ]' | wc -c | sed 's/$/\/80/g' | bc`
 
-cat test/chv.txt  | cut -f2 -d':' | hfst-proc chv.mor.hfstol > test/chv.txt
+cat test/chv.txt  | cut -f2 -d':' | hfst-proc chv.mor.hfstol > test/chv.tst
 for i in `cat test/chv.txt  | cut -f2 -d':'`; do 
 	res=`cat test/chv.txt | grep ":$i$" | cut -f1 -d':' | tr '\n' '/' | sed 's/\/$//g'`; echo "^$i/$res$"; 
 done > test/chv.ref
